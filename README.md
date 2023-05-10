@@ -26,7 +26,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="/assets/img/portfolio-icon.ico" alt="Logo" width="80" height="80">
+    <img src="/assets/img/contatoreIcon.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Progetto Javascript Basics</h3>
@@ -54,15 +54,14 @@
 <!-- ABOUT THE PROJECT -->
 ## Counter Javascript
 
-<img src="/assets/img/Screenshot-portfolio.PNG" alt="Screenshot" width="400" height="224">
+<img src="/assets/img/ScreenCounter.PNG" alt="Screenshot" width="400" height="224">
 Counter is a Web App implemented with javascript that allows the user to increase and decrease the value of the counter. 
 The initial value is set to 0
-- the +/- buttons display the increased value or decreased by 1
-- the +100/-100 buttons work with the same logic, but adding and subtracting 100
-- reset button reset the counter value to 0
-- random button is an additional feature of the counter that allows
-the user to display a random number, between -100000
-and 100000.
+
+* the +/- buttons display the increased value or decreased by 1
+* the +100/-100 buttons work with the same logic, but adding and subtracting 100
+* reset button reset the counter value to 0
+* random button is an additional feature of the counter that allows the user to display a random number, between -100000 and 100000.
 
 
 Visit my portfolio to know more about me: <a href="lucacamp.github.io">Portfolio </a>
