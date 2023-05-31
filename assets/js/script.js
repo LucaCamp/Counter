@@ -1,4 +1,4 @@
-
+console.log ("last version")
 //create counter div
 
 let counterDiv = document.createElement("div");
