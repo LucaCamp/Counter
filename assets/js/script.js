@@ -1,4 +1,4 @@
-console.log ("last version")
+
 //create counter div
 
 let counterDiv = document.createElement("div");
@@ -87,7 +87,7 @@ buttons.addEventListener ("click", function(event) {
   }
 })
 
-//function for button 
+//function for buttons
 
 function updateCounter (){
   counterDiv.innerHTML = counter;
