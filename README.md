@@ -1,5 +1,7 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+
 <a name="readme-top"></a>
+
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
 *** that would make this better, please fork the repo and create a pull request
@@ -7,8 +9,6 @@
 *** Don't forget to give the project a star!
 *** Thanks again! Now go create something AMAZING! :D
 -->
-
-
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -18,9 +18,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -45,49 +42,33 @@
   </p>
 </div>
 
-
-
-
-
-
-
 <!-- ABOUT THE PROJECT -->
+
 ## Counter Javascript
 
 <img src="/assets/img/ScreenCounter.PNG" alt="Screenshot" width="400" height="224">
 Counter is a Web App implemented with javascript that allows the user to increase and decrease the value of the counter. 
 The initial value is set to 0
 
-* the +/- buttons display the increased value or decreased by 1
-* the +100/-100 buttons work with the same logic, but adding and subtracting 100
-* reset button reset the counter value to 0
-* random button is an additional feature of the counter that allows the user to display a random number, between -100000 and 100000.
+- the +/- buttons display the increased value or decreased by 1
+- the +100/-100 buttons work with the same logic, but adding and subtracting 100
+- reset button reset the counter value to 0
+- random button is an additional feature of the counter that allows the user to display a random number, between -100000 and 100000.
 
-
-Visit my portfolio to know more about me: <a href="lucacamp.github.io">Portfolio </a>
+Visit my portfolio to know more about me: <a href="https://lucacamp.github.io/">Portfolio </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ### Built With
 
-* HTML
-* CSS
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* JavaScript
-
+- HTML
+- CSS
+- [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+- JavaScript
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-
-
-
-
 ## Directory
-
 
     ├── assets
     │   ├── img
@@ -96,10 +77,9 @@ Visit my portfolio to know more about me: <a href="lucacamp.github.io">Portfolio
     ├── README.md
     ├── index.html
 
-
 <!-- CONTACT -->
-## Contact
 
+## Contact
 
 Luca Campanella - campanella440@gmail.com
 
@@ -107,13 +87,9 @@ Project Link: [https://main--stately-pavlova-48eb0e.netlify.app/](https://main--
 
 <a href="https://www.linkedin.com/in/campanellaluca/">Linkedin</a>
 
-
-
-
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
 [contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
@@ -142,4 +118,4 @@ Project Link: [https://main--stately-pavlova-48eb0e.netlify.app/](https://main--
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+[JQuery-url]: https://jquery.com
