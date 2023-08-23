@@ -19,3 +19,8 @@
   width: 190px;
   
 }
+.footer{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}

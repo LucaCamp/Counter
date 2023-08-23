@@ -1,99 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Counter</title>
-  <link rel="stylesheet" href="assets/css/style.css">
-  <!-- Font Awesome -->
-<link
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-rel="stylesheet"
-/>
-<!-- Google Fonts -->
-<link
-href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-rel="stylesheet"
-/>
-<!-- MDB -->
-<link
-href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.0/mdb.min.css"
-rel="stylesheet"
-/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.0/mdb.min.css"
+      rel="stylesheet"
+    />
 
-<!-- Favicon -->
-<link rel="icon" type="image/x-icon" href="/assets/img/contatoreIcon.png">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/img/contatoreIcon.png" />
 
-<!-- Open Graph -->
-<meta property="og:title" content="Counter" />
-<meta property="og:description" content="Counter is a web app that allows the user to increase and decrease the value of the counter" />
-<meta property="og:url" content="https://main--stately-pavlova-48eb0e.netlify.app/" />
-<meta property="og:type" content="website" />
+    <!-- Open Graph -->
+    <meta property="og:title" content="Counter" />
+    <meta
+      property="og:description"
+      content="Counter is a web app that allows the user to increase and decrease the value of the counter"
+    />
+    <meta
+      property="og:url"
+      content="https://main--stately-pavlova-48eb0e.netlify.app/"
+    />
+    <meta property="og:type" content="website" />
+  </head>
 
-</head>
-
-
-<body>
- 
-<div class="row">
-<div class="col">
-
-</div>
-<div class="col text-success text-bold text-center mt-5">
-<h1>COUNTER</h1>
-</div>
-<div class="col">
-
-
-</div>
-
-</div>
-  <div class=" row mt-5">
-
-    <div class="col text-center"></div>
-
-    <div class="col text-center">
-      <div class="counter">
-      <div id="number-container" class="number-container d-flex justify-content-center">
-        
-        <!--counter div created by script.js-->
-    
+  <body>
+    <div class="row">
+      <div class="col"></div>
+      <div class="col text-success text-bold text-center mt-5">
+        <h1>COUNTER</h1>
       </div>
-      <div class="buttons-container d-flex justify-content-center">
+      <div class="col"></div>
+    </div>
+    <div class="row mt-5">
+      <div class="col text-center"></div>
 
-      <!--buttons created by script.js-->
-      
-      <div class="buttons"> 
-        <div id="btnRow1" class="col btn-group justify-content-center border" role="group">
-          <!-- <button id="minus"type="button" class="btn btn-lg btn-success">-1</button>
+      <div class="col text-center">
+        <div class="counter">
+          <div
+            id="number-container"
+            class="number-container d-flex justify-content-center"
+          >
+            <!--counter div created by script.js-->
+          </div>
+          <div class="buttons-container d-flex justify-content-center">
+            <!--buttons created by script.js-->
+
+            <div class="buttons">
+              <div
+                id="btnRow1"
+                class="col btn-group justify-content-center border"
+                role="group"
+              >
+                <!-- <button id="minus"type="button" class="btn btn-lg btn-success">-1</button>
           <button id="reset"type="button" class="btn btn-lg btn-success">RESET</button>
           <button id="plus" type="button" class="btn btn-lg btn-success">+1</button>-->
-        </div> 
-        <div id="btnRow2"class="col btn-group justify-content-center border" role="group">
-          <!-- <button id="minus100"type="button" class="btn btn-lg btn-success">-100</button>
+              </div>
+              <div
+                id="btnRow2"
+                class="col btn-group justify-content-center border"
+                role="group"
+              >
+                <!-- <button id="minus100"type="button" class="btn btn-lg btn-success">-100</button>
           <button id="random"type="button" class="btn  btn-lg btn-success">RANDOM</button>
           <button id="plus100"type="button" class="btn btn-lg btn-success">+100</button> -->
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+
+      <div class="col text-center"></div>
     </div>
-    </div></div>
+    <!-- Footer-->
 
-    <div class="col text-center "></div>
-  </div>
+    <footer class="container-fluid footer">
+      <div
+        class="text-center p-4"
+        style="background-color: rgba(0, 0, 0, 0.05)"
+      >
+        © 2023:
+        <a class="text-reset fw-bold" href="https://lucacamp.github.io/"
+          >LucaCamp</a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
 
+    <!--Script JavaScript Counter functions-->
 
+    <script src="assets/js/script.js"></script>
 
-  <!--Script JavaScript Counter functions-->
-
-  <script src="assets/js/script.js"></script>
-
-
-  <!--MDB-->
-<script
-  type="text/javascript"
-  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.0/mdb.min.js">
-</script>
-
-</body>
+    <!--MDB-->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.3.0/mdb.min.js"
+    ></script>
+  </body>
 </html>
